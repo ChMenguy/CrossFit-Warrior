@@ -13,7 +13,7 @@ function Nav() {
         <div class="collapse navbar-collapse d-flex justify-content-end me-5" id="navbarNav">
           <ul class="navbar-nav">
             <li className="nav-item me-5">
-            <Link className = 'nav-link active wod' to="/">HOMES</Link>
+            <Link className = 'nav-link active wod' to="/">HOME</Link>
             </li>
             <li class="nav-item me-5">
             <Link className = 'nav-link active wod' to="/wods">WODS</Link>
@@ -24,6 +24,7 @@ function Nav() {
           </ul> 
       </div>    
     </div>
-  </nav>)
+  </nav>
+  )
 }
 export default Nav

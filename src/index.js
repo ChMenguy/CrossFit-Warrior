@@ -3,8 +3,8 @@ import ReactDOM from 'react-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Home from './pages/home'
 import Wods from './pages/wods'
-import WodGirl from './pages/wodgirl'
-import WodHero from './pages/wodhero.jsx'
+import Wodgirl from './pages/wodgirl'
+import Wodhero from './pages/wodhero.jsx'
 import Scores from './pages/scores'
 import {
   BrowserRouter as Router,
@@ -19,8 +19,8 @@ ReactDOM.render(
     <Switch>
        <Route path="/" exact component = {Home} />
        <Route path="/wods" exact component={Wods}/>
-       <Route path="/wodgirl" exact component={WodGirl}/>
-       <Route path="/wodhero" exact component={WodHero}/>
+       <Route path="/wodgirl" exact component={Wodgirl}/>
+       <Route path="/wodhero" exact component={Wodhero}/>
        <Route path="/scores" exact component={Scores}/>
        <Route component={NoMatchRoute} />     
     </Switch>  

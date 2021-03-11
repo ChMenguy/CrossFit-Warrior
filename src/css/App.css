@@ -78,3 +78,45 @@ body{
     display: flex;
     justify-content: flex-end;
   }
+
+  /* PAGE WODS */
+
+  .wodtitle{
+    color: #ffc107;
+    text-align: center;
+    padding-top: 10%;
+  }
+
+  .wodtitle>h1{
+    font-size: 3em;
+  }
+
+  .wodschoise{
+    margin-top: 3%;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    flex-wrap: wrap;
+    
+  }
+
+  .wodlink{
+    text-decoration: none; 
+    color: #ffc107;
+    margin-bottom: 10px;
+  }
+
+  .wodlink:hover{
+    color: #212529;
+    opacity: 1;
+    transform: translateY(-10px);
+  }
+
+  .wodlink>div>img{
+    opacity: 0.8;
+  }
+
+  .wodlink>div>img:hover{
+    opacity: 1;
+   
+  }
