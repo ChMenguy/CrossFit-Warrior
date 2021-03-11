@@ -1,0 +1,80 @@
+body{
+  background-color: #505357 ;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+/* NavBar */
+.logo{
+    width: 80px;
+}
+.menu{
+    margin: 0 auto;
+    display: block;
+}
+
+.home, .wod, .scores{
+    font-size: 1.5em;
+    
+
+}
+.home:hover, .wod:hover, .scores:hover{
+    color:#ffc107 !important;
+    text-decoration: underline;
+}
+
+/* Slider */
+.contenant {
+    text-align: center;
+    color: red;
+  }
+.slider{
+ min-height: 100%;
+ min-width: 1024px;
+ width: 100%;
+ height: auto;
+ position: fixed;
+ top: 0;
+ left: 0;
+ opacity: 0.8;
+
+}
+
+.title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #ffc107;
+    font-size: 3.2em;
+  }
+
+  .button{
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+  }
+
+  .wodslink{
+     color: white;
+    font-size: 2em;
+  }
+
+/*Footer*/
+
+  .footer{
+
+    height: 20px;
+    background-color: #212529;
+    color: white;
+    position: relative;
+    top: 100%;
+    left: 100%;
+    transform: translate(-100%, 100%);
+  }
+
+  .signature{
+    display: flex;
+    justify-content: flex-end;
+  }
