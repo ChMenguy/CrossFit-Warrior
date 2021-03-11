@@ -1,0 +1,10 @@
+{
+    "wodgirls": [
+      { "id": 1, "title": "Angie", "exercices": "100 Pull-ups 100 Push-ups 100 Sit-ups 100 Squats","rounds":"1", "type":"time"},
+      { "id": 2, "title": "Barbara", "exercices": "20 Pull-ups 30 Push-ups 40 Sit-ups 50 Squats","rounds":"5", "type":"time"}
+    ],
+    "comments": [
+      { "id": 1, "body": "some comment", "postId": 1 }
+    ],
+    "profile": { "name": "typicode" }
+  }

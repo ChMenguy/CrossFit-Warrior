@@ -10,6 +10,7 @@ body{
 .menu{
     margin: 0 auto;
     display: block;
+    
 }
 
 .home, .wod, .scores{
@@ -119,4 +120,13 @@ body{
   .wodlink>div>img:hover{
     opacity: 1;
    
+  }
+
+  .wods{
+    margin-top: 10%;
+  }
+
+  .cardwod>div>h2{
+    color: #ffc107;
+    text-align: center;
   }
