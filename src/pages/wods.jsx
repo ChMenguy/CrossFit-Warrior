@@ -12,17 +12,17 @@ function Wods(){
         </div>
         <div className="container wodschoise">
         <Link className="wodlink"to="/wodgirl">
-            <div class="card" style={{"width" : "30em"}} >
-                <img class="card-img-top" src={WodGirlImage} alt="Card image cap"></img>
-                <div class="card-body">
+            <div className="card" style={{"width" : "30em"}} >
+                <img className="card-img-top" src={WodGirlImage} alt="Card image cap"></img>
+                <div className="card-body">
                     <h2>WOD GIRL</h2>
                 </div>
             </div>
         </Link>
         <Link className="wodlink"to="/wodhero">
-        <div class="card" style={{"width" : "30em"}}>
-            <img class="card-img-top" src={WodHeroImage} alt="Card image cap"></img>
-            <div class="card-body">
+        <div className="card" style={{"width" : "30em"}}>
+            <img className="card-img-top" src={WodHeroImage} alt="Card image cap"></img>
+            <div className="card-body">
                 <h2>WOD HERO</h2>
             </div>
         </div>

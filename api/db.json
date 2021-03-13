@@ -4,6 +4,6 @@
       { "id": 2, "title": "Barbara", "exercices": ["20 Pull-ups", "30 Push-ups", "40 Sit-ups", "50 Squats"],"rounds":"5", "type":"time"}
     ],
     "wodheros": [
-      { "id": 1, "title": "Murph", "exercices": "1 mile run, 100 Pull-ups, 200 Push-ups, 300 Air Squats, 1 mile run", "rounds":"1","type":"time" }
+      { "id": 1, "title": "Murph", "exercices": ["1 mile run", "100 Pull-ups", "200 Push-ups", "300 Air Squats", "1 mile run"], "rounds":"1","type":"time" }
     ]
 }

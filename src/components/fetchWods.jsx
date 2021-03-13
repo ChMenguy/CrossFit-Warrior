@@ -1,18 +1,23 @@
 import { useEffect, useState } from 'react';
 import axios from 'axios';
 
-function useFetchWods($url){
+function useFetchWods(url){
     const [wods,fetchWods] = useState({
         wods : [],
         load : false
     })
-    useEffect(async () => {
-        const result = await axios($url)     
-        fetchWods({wods : result.data,
-                   load : true });
-      },[]  
-      );
+
+    useEffect(() => {
+        async function fetchData() {
+          const response = await axios.get(url);
+          fetchWods({wods : response.data,
+            load : true });
+        }
+        fetchData();
+      }, []); 
+
     return [wods]
 }
+
 
 export default useFetchWods

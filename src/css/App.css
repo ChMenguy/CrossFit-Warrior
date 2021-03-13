@@ -148,3 +148,11 @@ body{
     font-size: 0.8em;
     font-style: italic;
   }
+
+  .card-body>.ajout{
+    margin: 0 auto;
+    display: block;
+  }
+  .card-body>.ajout:hover{
+    color: white;
+  }
