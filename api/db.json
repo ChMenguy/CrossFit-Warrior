@@ -5,5 +5,8 @@
     ],
     "wodheros": [
       { "id": 1, "title": "Murph", "exercices": ["1 mile run", "100 Pull-ups", "200 Push-ups", "300 Air Squats", "1 mile run"], "rounds":"1","type":"time" }
+    ],
+    "scores": [
+      
     ]
 }

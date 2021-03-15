@@ -2,8 +2,6 @@ import Nav from '../components/nav'
 import Displaywods from '../components/displaywods'
 
 function Wodgirl ({$url}) {
-    
-   
     return(
         <>
         <Nav />
