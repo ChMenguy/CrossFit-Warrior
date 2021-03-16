@@ -156,3 +156,26 @@ body{
   .card-body>.ajout:hover{
     color: white;
   }
+
+  .card-body>input{
+    margin: 10px;
+  }
+
+  .card-body>input::placeholder{
+    color: rgb(128, 125, 125);
+    text-align: center;
+  }
+
+ 
+  .header{
+    display: flex;
+    justify-content: space-around;
+  } 
+  .header>h2{
+    color: #ffc107;
+    text-align: center;
+  }
+
+  .header>.backbutton{
+    font-size: 2em;
+  }
