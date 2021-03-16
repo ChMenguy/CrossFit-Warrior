@@ -1,13 +1,100 @@
 {
-    "wodgirls": [
-      { "id": 1, "title": "Angie", "exercices": ["100 Pull-ups" , "100 Push-ups" , "100 Sit-ups" , "100 Squats"],"rounds":"Tour Unique", "type":"time"},
-      { "id": 2, "title": "Barbara", "exercices": ["20 Pull-ups", "30 Push-ups", "40 Sit-ups", "50 Squats"],"rounds":"5 tours", "type":"time"},
-      { "id": 3, "title": "Cindy", "exercices": ["5 Pull Ups", "10 Push-ups", "15 Squats"],"rounds":"AMRAP 15 min", "type":"rep"}
-    ],
-    "wodheros": [
-      { "id": 1, "title": "Murph", "exercices": ["1 mile run", "100 Pull-ups", "200 Push-ups", "300 Air Squats", "1 mile run"], "rounds":"1","type":"time" }
-    ],
-    "scores": [
-      
-    ]
+  "wodgirls": [
+    {
+      "id": 1,
+      "title": "Angie",
+      "exercices": [
+        "100 Pull-ups",
+        "100 Push-ups",
+        "100 Sit-ups",
+        "100 Squats"
+      ],
+      "rounds": "Tour Unique",
+      "type": "time",
+      "species": "wodgirl"
+    },
+    {
+      "id": 2,
+      "title": "Barbara",
+      "exercices": [
+        "20 Pull-ups",
+        "30 Push-ups",
+        "40 Sit-ups",
+        "50 Squats"
+      ],
+      "rounds": "5 tours",
+      "type": "time",
+      "species": "wodgirl"
+    },
+    {
+      "id": 3,
+      "title": "Cindy",
+      "exercices": [
+        "5 Pull Ups",
+        "10 Push-ups",
+        "15 Squats"
+      ],
+      "rounds": "AMRAP 15 min",
+      "type": "rep",
+      "species": "wodgirl"
+    }
+  ],
+  "wodheros": [
+    {
+      "id": 1,
+      "title": "Murph",
+      "exercices": [
+        "1 mile run",
+        "100 Pull-ups",
+        "200 Push-ups",
+        "300 Air Squats",
+        "1 mile run"
+      ],
+      "rounds": "Tour Unique",
+      "type": "time",
+      "species": "wodhero"
+    }
+  ],
+  "scores": [
+    {
+      "wod": "Angie",
+      "pseudo": "coco",
+      "score": "03:02",
+      "species": "wodgirl",
+      "date": "2021-03-16T21:55:10.107Z",
+      "id": 1
+    },
+    {
+      "wod": "Angie",
+      "pseudo": "coco",
+      "score": "04:05",
+      "species": "wodgirl",
+      "date": "2021-03-16T21:56:17.488Z",
+      "id": 2
+    },
+    {
+      "wod": "Angie",
+      "pseudo": "Tof",
+      "score": "12:34",
+      "species": "wodgirl",
+      "date": "2021-03-16T21:57:39.430Z",
+      "id": 3
+    },
+    {
+      "wod": "Barbara",
+      "pseudo": "jojo",
+      "score": "08:04",
+      "species": "wodgirl",
+      "date": "2021-03-16T21:58:20.791Z",
+      "id": 4
+    },
+    {
+      "wod": "Barbara",
+      "pseudo": "bobo",
+      "score": "07:20",
+      "species": "wodgirl",
+      "date": "2021-03-16T22:00:34.288Z",
+      "id": 5
+    }
+  ]
 }
