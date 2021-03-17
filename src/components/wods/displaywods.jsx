@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
-import Cardwod from '../components/cardwod'
-import Cardinput from '../components/cardinput'
-import useFetchWods from '../components/fetchWods'
+import Cardwod from './cardwod'
+import Cardinput from './cardinput'
+import useFetchWods from '../fetchWods'
 import axios from 'axios';
 
 function Displaywods ({url}) {

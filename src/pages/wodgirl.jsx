@@ -1,5 +1,5 @@
 import Nav from '../components/nav'
-import Displaywods from '../components/displaywods'
+import Displaywods from '../components/wods/displaywods'
 
 function Wodgirl ({$url}) {
     return(

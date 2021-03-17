@@ -184,3 +184,15 @@ body{
   .header>.backbutton{
     font-size: 2em;
   }
+
+  /*PAGES SCORES*/
+
+  .selection{
+    margin-top: 150px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .selection>select{
+    margin-right: 40px;
+  }
