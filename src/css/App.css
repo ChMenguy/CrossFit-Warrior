@@ -196,3 +196,8 @@ body{
   .selection>select{
     margin-right: 40px;
   }
+
+  .scoretable{
+    background-color: #ffc107;
+    text-align: center;
+  }
